@@ -1,0 +1,67 @@
+/* @media all and (max-width: 768px) {
+}
+*/
+
+/* Variables Comunes*/
+
+:root {
+  --title-font: "Rubik", sans-serif;
+  --title-color-secondary: #099d8d;
+  --text-font: "Open Sans", sans-serif;
+  --text-size: 16px;
+  --text-color: #54585a;
+}
+
+/* strenghts and weakness styles*/
+.strenghts-and-weakness {
+  background-color: rgb(184, 184, 185, 0.2);
+  width: 100%;
+  text-align: center;
+  padding: 30px 15px 45px 15px;
+}
+
+.strenghts-and-weakness-title {
+  font-family: var(--title-font);
+  color: var(--title-color-secondary);
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.main-text {
+  font-family: var(--text-font);
+  font-size: var(--text-size);
+  color: var(--text-color);
+  line-height: 24px;
+}
+
+/*about us styles*/
+
+.about-us {
+  width: 100%;
+  text-align: center;
+  padding: 30px 15px 30px 15px;
+}
+
+.about-us-title {
+  font-family: var(--title-font);
+  color: var(--title-color-secondary);
+  font-size: 24px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.member-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin: 30px 0 15px 0;
+}
+
+.member-name {
+  font-family: var(--text-font);
+  font-size: 20px;
+  line-height: 45px;
+  color: black;
+}
