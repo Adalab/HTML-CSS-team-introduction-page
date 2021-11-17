@@ -1,81 +1,91 @@
 .header {
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  @media all and (min-width: 1200px) {
-    background-color: $title-color-secondary;
-    opacity: 0.9;
-  }
-  &__wrapper {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    @media all and (min-width: 768px) {
-      flex-direction: row;
-    }
+    position: fixed;
+    z-index: 1;
     @media all and (min-width: 1200px) {
-      width: 924px;
-      margin: 0 auto;
+        background-color: $title-color-secondary;
+        opacity: 0.9;
     }
-  }
-  &__title {
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: $title-color-secondary;
-    font-family: $title-font;
-    font-size: 16px;
-    line-height: 30px;
-    padding: 15px 0;
-    color: white;
-    opacity: 0.9;
-    @media all and (min-width: 768px) {
-      text-align: left;
-      padding-left: 45px;
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @media all and (min-width: 768px) {
+            flex-direction: row;
+        }
+        @media all and (min-width: 1200px) {
+            width: 924px;
+            margin: 0 auto;
+        }
     }
-    @media all and (min-width: 1200px) {
-      background: none;
-      padding-left: 0px;
+    &__title {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: $title-color-secondary;
+        font-family: $title-font;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 15px 0;
+        color: white;
+        opacity: 0.9;
+        @media all and (min-width: 768px) {
+            text-align: left;
+            padding-left: 45px;
+        }
+        @media all and (min-width: 1200px) {
+            background: none;
+            padding-left: 0px;
+        }
+        &--link {
+            text-decoration: none;
+            color: white;
+        }
+        &--link:hover {
+            text-decoration: underline;
+        }
     }
-  }
-  &__nav {
-    background-color: $title-color-primary;
-    width: 100%;
-    opacity: 0.9;
-    @media all and (min-width: 768px) {
-      background-color: $title-color-secondary;
-      padding-top: 7px;
-      padding-bottom: 8px;
+    &__nav {
+        background-color: $title-color-primary;
+        width: 100%;
+        opacity: 0.9;
+        @media all and (min-width: 768px) {
+            background-color: $title-color-secondary;
+            padding-top: 7px;
+            padding-bottom: 8px;
+        }
+        @media all and (min-width: 1200px) {
+            background: none;
+        }
     }
-    @media all and (min-width: 1200px) {
-      background: none;
+    &__menu {
+        display: flex;
+        justify-content: space-around;
+        font-family: $title-font;
+        font-size: 15px;
+        line-height: 30px;
+        text-transform: uppercase;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        @media all and (min-width: 768px) {
+            justify-content: flex-end;
+            padding-right: 40px;
+        }
+        @media all and (min-width: 1200px) {
+            padding-right: 0px;
+        }
+        &--link {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            @media all and (min-width: 768px) {
+                margin-left: 8px;
+            }
+        }
+        &--link:hover {
+            text-decoration: underline;
+        }
     }
-  }
-  &__menu {
-    display: flex;
-    justify-content: space-around;
-    font-family: $title-font;
-    font-size: 15px;
-    line-height: 30px;
-    text-transform: uppercase;
-    padding-top: 8px;
-    padding-bottom: 7px;
-    @media all and (min-width: 768px) {
-      justify-content: flex-end;
-      padding-right: 40px;
-    }
-    @media all and (min-width: 1200px) {
-      padding-right: 0px;
-    }
-    &--link {
-      color: white;
-      text-decoration: none;
-      padding: 5px;
-      @media all and (min-width: 768px) {
-        margin-left: 8px;
-      }
-    }
-  }
 }
