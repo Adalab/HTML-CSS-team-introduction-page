@@ -1,68 +1,273 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TEAM 6</title>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+		<!-- google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
+			rel="stylesheet"
+		/>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+		<!-- font awesome icons-->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<!-- stylesheets-->
+		<link rel="stylesheet" href="./assets/css/main.css" />
+	</head>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+	<body>
+		<header class="header">
+		  <h1 class="title">Nombre del grupo</h1>
+		  <nav class="header-nav">
+		    <ul class="header-menu">
+		      <li class="header-menu-item">
+		        <a class="header-menu-link" href="#">Equipo</a>
+		      </li>
+		      <li class="header-menu-item">
+		        <a class="header-menu-link" href="#">Quiénes somos</a>
+		      </li>
+		      <li class="header-menu-item">
+		        <a class="header-menu-link" href="#">Contacto</a>
+		      </li>
+		    </ul>
+		  </nav>
+		</header>
 
-          </li>
-        </ul>
-      </main>
+		<main class="main">
+		  <section class="hero">
+  		  <h2 class="hero-title">
+  		    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  		  </h2>
+  		</section>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+		  <section class="team">
+  		  <article class="team-article">
+  		    <h2 class="team-title">Equipo</h2>
+  		    <p class="main-text">
+  		      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo.
+  		      Unde tenetur velit ipsa error id voluptate veniam dicta excepturi amet aut
+  		      soluta fugiat voluptatibus voluptas, commodi quasi reprehenderit
+  		      blanditiis!
+  		    </p>
+  		    <p class="main-text">
+  		      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsum
+  		      eaque eius consequatur nobis eligendi itaque ipsam recusandae fugit rerum
+  		      sunt deserunt beatae obcaecati asperiores veritatis, voluptatibus deleniti
+  		      quisquam. Minima!
+  		    </p>
+  		  </article>
+  		</section>
+  		<div class="arrow"></div>
+  		<section class="strenghts-and-weakness">
+  		  <article class="strenghts-and-weakness-article">
+  		    <h3 class="strenghts-and-weakness-title">Fortalezas</h3>
+  		    <p class="main-text">
+  		      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+  		      quibusdam dolor dignissimos laborum, voluptate deserunt nulla fugit earum.
+  		      Totam odit recusandae impedit reiciendis culpa quam nulla! Dicta sunt
+  		      delectus nostrum?
+  		    </p>
+  		  </article>
+  		  <article class="strenghts-and-weakness-article">
+  		    <h3 class="strenghts-and-weakness-title">Debilidades</h3>
+  		    <p class="main-text">
+  		      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia expedita
+  		      ipsum facilis quos porro consequatur, repellendus ad, eligendi voluptate,
+  		      eum quam labore consectetur dignissimos iusto cupiditate quibusdam
+  		      possimus harum odio?
+  		    </p>
+  		  </article>
+  		</section>
 
-        </small>
-      </footer>
+		  <section class="about-us">
+  			<!-- tag for email icon
+  		    <i class="fab fa-linkedin-in"></i> -->
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+  			<h2 class="about-us-title">Quiénes somos</h2>
+  			<article class="member">
+  				<img
+  					class="member-img"
+  					src="https://www.placecage.com/180/180"
+  					alt="Foto"
+  				/>
+  				<h4 class="member-name">Inma Sánchez</h4>
+  				<p class="main-text">
+  					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cumque,
+  					ipsum aspernatur suscipit distinctio perferendis reprehenderit, quaerat
+  					eligendi pariatur earum corporis quasi recusandae perspiciatis
+  					repudiandae. Excepturi sapiente similique itaque ipsum.
+  				</p>
+  				<ul class="social-media">
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="https://github.com/iscasaban"
+  							><i class="fab fa-github-alt"></i
+  						></a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a
+  							class="social-media-link"
+  							href="https://www.linkedin.com/in/iscasaban/"
+  						>
+  							<i class="fab fa-linkedin-in"></i>
+  						</a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="#">
+  							<i class="fas fa-envelope"></i>
+  						</a>
+  					</li>
+  				</ul>
+  			</article>
+  			<article class="member">
+  				<img
+  					class="member-img"
+  					src="https://www.fillmurray.com/180/180"
+  					alt="Foto"
+  				/>
+  				<h4 class="member-name">Mara Rocha</h4>
+  				<p class="main-text">
+  					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+  					possimus ipsa qui culpa consequatur debitis quae totam esse numquam vel
+  					eveniet velit dolore, assumenda exercitationem incidunt veritatis?
+  					Repellendus, nesciunt incidunt.
+  				</p>
+  				<ul class="social-media">
+  					<li class="social-media-item">
+  						<a
+  							class="social-media-link"
+  							href="https://github.com/mararochafernandez"
+  						>
+  							<i class="fab fa-github-alt"></i>
+  						</a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a
+  							class="social-media-link"
+  							href="https://www.linkedin.com/in/mara-rocha-fernandez/"
+  						>
+  							<i class="fab fa-linkedin-in"></i>
+  						</a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="#">
+  							<i class="fas fa-envelope"></i>
+  						</a>
+  					</li>
+  				</ul>
+  			</article>
+  			<article class="member">
+  				<img class="member-img" src="./assets/images/Tania.jpg" alt="Foto" />
+  				<h4 class="member-name">Tania Gamero</h4>
+  				<p class="main-text">
+  					Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sequi
+  					unde aliquid excepturi impedit veniam id ullam eveniet, reprehenderit
+  					sunt! Obcaecati illo nam cupiditate delectus similique mollitia,
+  					voluptates expedita dignissimos!
+  				</p>
+  				<ul class="social-media">
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="https://github.com/TaniaGamGonz"
+  							><i class="fab fa-github-alt"></i
+  						></a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a
+  							class="social-media-link"
+  							href="https://www.linkedin.com/in/taniagamgonz"
+  						>
+  							<i class="fab fa-linkedin-in"></i>
+  						</a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="#">
+  							<i class="fas fa-envelope"></i>
+  						</a>
+  					</li>
+  				</ul>
+  			</article>
+  			<article class="member">
+  				<img class="member-img" src="./assets/images/Isa2.jpg" alt="Foto" />
+  				<h4 class="member-name">Isa Garabana</h4>
+  				<p class="main-text">
+  					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo molestiae
+  					doloremque consectetur consequuntur asperiores ratione quidem aperiam
+  					mollitia quia quod eligendi, delectus officiis non aliquam, deserunt
+  					obcaecati eveniet expedita neque.
+  				</p>
+  				<ul class="social-media">
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="https://github.com/IsaGarabana"
+  							><i class="fab fa-github-alt"></i
+  						></a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a
+  							class="social-media-link"
+  							href="https://www.linkedin.com/in/isabelgarabana/"
+  						>
+  							<i class="fab fa-linkedin-in"></i>
+  						</a>
+  					</li>
+  					<li class="social-media-item">·</li>
+  					<li class="social-media-item">
+  						<a class="social-media-link" href="#">
+  							<i class="fas fa-envelope"></i>
+  						</a>
+  					</li>
+  				</ul>
+  			</article>
+  		</section>
+
+		</main>
+
+		<footer class="footer">
+		  <section class="copyright">
+		    <p class="copyright-text">Nombre del grupo &copy 2021</p>
+		  </section>
+		  <nav class="footer-nav">
+		    <ul class="footer-menu">
+		      <li class="footer-menu-item">
+		        <a class="footer-menu-link" href="#">Equipo</a>
+		      </li>
+		      <li class="footer-menu-item">
+		        <a class="footer-menu-link" href="#">Quiénes somos</a>
+		      </li>
+		      <li class="footer-menu-item">
+		        <a class="footer-menu-link" href="#">Contacto</a>
+		      </li>
+		    </ul>
+		  </nav>
+		  <section class="footer-container">
+		    <img
+		      class="footer-logo"
+		      src="./assets/images/logo-adalab.png"
+		      alt="Logo Adalab"
+		    />
+		  </section>
+		</footer>
+
+	</body>
 </html>
