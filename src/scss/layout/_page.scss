@@ -5,3 +5,11 @@ body {
 .footer {
   background-color: var(--main-background-color);
 }
+
+//Text styles
+.main-text {
+  font-family: var(--text-font);
+  font-size: var(--text-size);
+  color: var(--text-color);
+  line-height: 24px;
+}
