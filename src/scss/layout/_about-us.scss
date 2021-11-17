@@ -1,83 +1,84 @@
 .about-us {
-  width: 100%;
-  text-align: center;
-  padding: 30px 15px 30px 15px;
+	width: 100%;
+	text-align: center;
+	padding: 30px 15px 30px 15px;
 
-  @media all and (min-width: 768px) {
-    padding: 45px 45px 40px 45px;
-  }
+	@media all and (min-width: 768px) {
+		padding: 45px 45px 40px 45px;
+	}
 
-  &-title {
-    font-family: $title-font;
-    color: $title-color-secondary;
-    font-size: 24px;
-    line-height: 45px;
-    text-transform: uppercase;
-  }
+	&-title {
+		font-family: $title-font;
+		color: $title-color-secondary;
+		font-size: 24px;
+		line-height: 45px;
+		text-transform: uppercase;
+	}
 }
 
 .member {
-  @media all and (min-width: 768px) {
-    display: flex;
+	@media all and (min-width: 768px) {
+		display: flex;
+		//text-align: left;//
 
-    &:nth-child(odd) {
-      direction: rtl;
-      text-align: right;
-    }
-  }
-  &__container {
-    @media all and (min-width: 768px) {
-      display: flex;
-      padding: 40px 0 20px 0;
-    }
+		&:nth-child(odd) {
+			direction: rtl;
+			text-align: right;
+		}
+	}
+	&__container {
+		@media all and (min-width: 768px) {
+			display: flex;
+			padding: 40px 0 20px 0;
+		}
 
-    & .container--text {
-      text-align: left;
-      padding: 0 30px;
-    }
-  }
+		& .container--text {
+			//text-align: left; ESTO NOS CAMBIABA EL ALIGN DE LA VERSION MOBILE//
+			padding: 0 30px;
+		}
+	}
 
-  &-img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border: 5px solid rgba(0, 0, 0, 0.08);
-    border-radius: 4px;
-    margin: 30px 0 15px 0;
+	&-img {
+		width: 180px;
+		height: 180px;
+		object-fit: cover;
+		border: 5px solid rgba(0, 0, 0, 0.08);
+		border-radius: 4px;
+		margin: 30px 0 15px 0;
 
-    @media all and (min-width: 768px) {
-      min-width: 205px;
-      height: 205px;
-      margin: 0;
-    }
-  }
+		@media all and (min-width: 768px) {
+			min-width: 205px;
+			height: 205px;
+			margin: 0;
+		}
+	}
 
-  &-name {
-    font-family: $text-font;
-    font-size: 20px;
-    line-height: 45px;
-    color: black;
-  }
+	&-name {
+		font-family: $text-font;
+		font-size: 20px;
+		line-height: 45px;
+		color: black;
+	}
 }
 
 .social-media {
-  display: flex;
-  justify-content: center;
-  margin: 15px;
+	display: flex;
+	justify-content: center;
+	margin: 15px;
 
-  @media all and (min-width: 768px) {
-    justify-content: left;
-    margin: 15px 0;
-  }
+	@media all and (min-width: 768px) {
+		justify-content: left;
+		margin: 15px 0;
+	}
 
-  &-item {
-    line-height: 30px;
-    & + & {
-      margin-left: 5px;
-    }
-  }
+	&-item {
+		line-height: 30px;
+		& + & {
+			margin-left: 5px;
+		}
+	}
 
-  &-link {
-    color: $title-color-secondary;
-  }
+	&-link {
+		color: $title-color-secondary;
+	}
 }
