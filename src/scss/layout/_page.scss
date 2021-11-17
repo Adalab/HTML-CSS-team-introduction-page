@@ -1,15 +1,15 @@
 body {
-  font-family: var(--text-font);
+  font-family: $text-font;
 }
 .main,
 .footer {
-  background-color: var(--main-background-color);
+  background-color: $main-background-color;
 }
 
 //Text styles
 .main-text {
-  font-family: var(--text-font);
-  font-size: var(--text-size);
-  color: var(--text-color);
+  font-family: $text-font;
+  font-size: $text-size;
+  color: $text-color;
   line-height: 24px;
 }

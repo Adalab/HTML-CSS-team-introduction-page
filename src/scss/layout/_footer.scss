@@ -9,7 +9,7 @@
 }
 
 .copyright-text {
-  font: var(--text-font);
+  font: $text-font;
   color: #b8b8b9;
   font-size: 14px;
   line-height: 20px;
@@ -19,7 +19,7 @@
   text-align: center;
 }
 .footer-menu-link {
-  color: var(--text-color);
+  color: $text-color;
   text-decoration: none;
   line-height: 20px;
   font-size: 14px;

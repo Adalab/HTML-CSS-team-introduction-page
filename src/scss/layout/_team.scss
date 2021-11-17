@@ -4,15 +4,15 @@
 
 .team-article {
   margin-top: 87px;
-  font-family: var(--title-font);
+  font-family: $title-font;
 }
 
 .team-title {
-  font-family: var(--title-font);
+  font-family: $title-font;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 25px;
-  color: var(--title-color-primary);
+  color: $title-color-primary;
 }
 
 .team .main-text {
@@ -22,7 +22,7 @@
 .arrow {
   width: 30px;
   height: 30px;
-  background-color: var(--main-background-color);
+  background-color: $main-background-color;
   transform: rotate(45deg) translate(10px, 10px);
   margin: 0 auto;
 }
@@ -41,8 +41,8 @@
 }
 
 .strenghts-and-weakness-title {
-  font-family: var(--title-font);
-  color: var(--title-color-secondary);
+  font-family: $title-font;
+  color: $title-color-secondary;
   font-size: 22px;
   line-height: 45px;
 }
