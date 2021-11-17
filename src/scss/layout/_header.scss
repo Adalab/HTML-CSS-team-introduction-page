@@ -7,6 +7,11 @@
   position: fixed;
   opacity: 0.95;
   z-index: 1;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    // justify-content: space-between;
+    align-items: flex-end;
+  }
 }
 
 .title {
@@ -25,6 +30,11 @@
   background-color: $title-color-primary;
   width: 100%;
   opacity: 0.9;
+  @media all and (min-width: 768px) {
+    background-color: $title-color-secondary;
+    padding-top: 7px;
+    padding-bottom: 8px;
+  }
 }
 
 .header-menu {
