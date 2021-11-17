@@ -1,54 +1,60 @@
 .header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  opacity: 0.95;
-  z-index: 1;
-  @media all and (min-width: 768px) {
-    flex-direction: row;
-    // justify-content: space-between;
-    align-items: flex-end;
-  }
-}
-
-.title {
-  width: 100%;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: $title-color-secondary;
-  font-family: $title-font;
-  font-size: 16px;
-  line-height: 30px;
-  padding: 15px 0;
-  color: white;
-}
-
-.header-nav {
-  background-color: $title-color-primary;
-  width: 100%;
-  opacity: 0.9;
-  @media all and (min-width: 768px) {
-    background-color: $title-color-secondary;
-    padding-top: 7px;
-    padding-bottom: 8px;
-  }
-}
-
-.header-menu {
-  display: flex;
-  justify-content: space-around;
-  font-family: $title-font;
-  font-size: 15px;
-  line-height: 30px;
-  text-transform: uppercase;
-  margin-top: 8px;
-  margin-bottom: 7px;
-}
-
-.header-menu-link {
-  color: white;
-  text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+    }
+    &__title {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: $title-color-secondary;
+        font-family: $title-font;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 15px 0;
+        color: white;
+        opacity: 0.9;
+        @media all and (min-width: 768px) {
+            text-align: left;
+            padding-left: 45px;
+        }
+    }
+    &__nav {
+        background-color: $title-color-primary;
+        width: 100%;
+        opacity: 0.9;
+        @media all and (min-width: 768px) {
+            background-color: $title-color-secondary;
+            padding-top: 7px;
+            padding-bottom: 8px;
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-around;
+        font-family: $title-font;
+        font-size: 15px;
+        line-height: 30px;
+        text-transform: uppercase;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        @media all and (min-width: 768px) {
+            justify-content: flex-end;
+            padding-right: 40px;
+        }
+        &--link {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            @media all and (min-width: 768px) {
+                margin-left: 8px;
+            }
+        }
+    }
 }
