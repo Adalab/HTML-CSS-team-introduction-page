@@ -1,5 +1,44 @@
-.page__header {
+.header {
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.title {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--title-color-secondary);
+  font-family: var(--title-font);
+  font-size: 16px;
+  line-height: 30px;
+  padding: 15px 0;
+  color: white;
+}
+
+.header-nav {
+  background-color: var(--title-color-primary);
+  width: 100%;
+  opacity: 0.9;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--title-font);
+  font-size: 15px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+.header-menu-link {
+  color: white;
+  text-decoration: none;
 }

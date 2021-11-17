@@ -1,8 +1,33 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  height: 250px;
+  border-top: solid #b8b8b9 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.copyright-text {
+  font: var(--text-font);
+  color: #b8b8b9;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-menu {
+  text-align: center;
+}
+.footer-menu-link {
+  color: var(--text-color);
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.footer-logo {
+  height: 45px;
 }

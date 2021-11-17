@@ -1,0 +1,19 @@
+.hero {
+  background: url("https://placekitten.com/800/600") center top;
+  height: 421px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero-title {
+  font-weight: bold;
+  background-color: var(--main-background-color);
+  font-family: var(--text-font);
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15px;
+  margin: 0 15px;
+  position: relative;
+  bottom: -46px;
+}
