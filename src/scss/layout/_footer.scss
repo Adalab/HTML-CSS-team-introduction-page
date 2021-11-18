@@ -17,7 +17,7 @@
 
 	@media (min-width: 1200px) {
 		height: 161px;
-		padding: 0 138px;
+		padding: 24px 138px 51px 138px;
 	}
 
 	&__nav {
@@ -25,11 +25,14 @@
 			grid-area: menu;
 			justify-self: right;
 			text-align: right;
+			align-self: start;
 		}
 	}
 	&__container {
 		@media (min-width: 768px) {
 			grid-area: logo;
+		}
+		@media (min-width: 1200px) {
 		}
 	}
 
@@ -38,9 +41,6 @@
 
 		@media (min-width: 768px) {
 			margin-left: -10px;
-		}
-		@media (min-widht: 1200px) {
-			margin-bottom: 51px;
 		}
 	}
 
@@ -71,6 +71,9 @@
 		@media (min-width: 768px) {
 			grid-area: copy;
 			justify-self: left;
+		}
+
+		@media (min-width: 1200px) {
 		}
 
 		& .copy__text {
