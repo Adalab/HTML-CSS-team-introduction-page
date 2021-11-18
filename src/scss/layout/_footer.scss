@@ -11,55 +11,73 @@
 		height: 170px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto auto;
+		grid-template-rows: auto 96px;
 		grid-template-areas: "copy menu" "logo menu";
 	}
 
-	&-nav {
+	@media (min-width: 1200px) {
+		height: 161px;
+		padding: 0 138px;
+	}
+
+	&__nav {
 		@media (min-width: 768px) {
 			grid-area: menu;
 			justify-self: right;
 			text-align: right;
 		}
 	}
-	&-container {
+	&__container {
 		@media (min-width: 768px) {
 			grid-area: logo;
 		}
 	}
 
-	&-logo {
+	&__logo {
 		height: 45px;
+
+		@media (min-width: 768px) {
+			margin-left: -10px;
+		}
+		@media (min-widht: 1200px) {
+			margin-bottom: 51px;
+		}
 	}
 
-	&-menu {
+	&__menu {
 		text-align: center;
 		@media (min-width: 768px) {
 			text-align: right;
 		}
 
-		&-link {
-			color: $text-color;
-			text-decoration: none;
-			line-height: 20px;
-			font-size: 14px;
-			text-transform: uppercase;
-			font-family: "Open Sans", sans-serif;
-			font-weight: 600;
+		& .menu__item {
+			& .menu__link {
+				color: $text-color;
+				text-decoration: none;
+				line-height: 20px;
+				font-size: 14px;
+				text-transform: uppercase;
+				font-family: "Open Sans", sans-serif;
+				font-weight: 600;
+
+				@media (min-width: 768px) {
+					line-height: 30px;
+				}
+			}
 		}
 	}
-}
 
-.copyright {
-	@media (min-width: 768px) {
-		grid-area: copy;
-		justify-self: left;
+	&__copy {
+		@media (min-width: 768px) {
+			grid-area: copy;
+			justify-self: left;
+		}
+
+		& .copy__text {
+			font: $text-font;
+			color: #b8b8b9;
+			font-size: 14px;
+			line-height: 20px;
+		}
 	}
-}
-
-.copyright-text {
-	font: $text-font;
-	color: #b8b8b9;
-	font-size: 14px;
-	line-height: 20px;
 }
