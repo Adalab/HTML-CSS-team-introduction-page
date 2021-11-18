@@ -17,9 +17,9 @@
 }
 
 .member {
-	@media all and (min-width: 768px) {
+	/*@media all and (min-width: 768px) {
 		display: flex;
-		//text-align: left;//
+		text-align: left;
 
 		&:nth-child(odd) {
 			direction: rtl;
@@ -33,10 +33,9 @@
 		}
 
 		& .container--text {
-			//text-align: left; ESTO NOS CAMBIABA EL ALIGN DE LA VERSION MOBILE//
 			padding: 0 30px;
 		}
-	}
+	}*/
 
 	&-img {
 		width: 180px;
@@ -67,7 +66,7 @@
 	margin: 15px;
 
 	@media all and (min-width: 768px) {
-		justify-content: left;
+		//justify-content: left;
 		margin: 15px 0;
 	}
 
