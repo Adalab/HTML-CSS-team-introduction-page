@@ -2,6 +2,10 @@
 
 .team {
     text-align: center;
+    scroll-margin-top: 130px;
+    @media all and (min-width: 768px) {
+        scroll-margin-top: 85px;
+    }
     &__wrapper {
         @media all and (min-width: 768px) {
             margin: 0 45px;
