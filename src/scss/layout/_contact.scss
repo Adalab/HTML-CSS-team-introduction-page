@@ -1,0 +1,36 @@
+.hero-contact {
+  background: url("../images/hero-contact.jpg") center right;
+  background-size: cover;
+  height: 300px;
+  @media all and (min-width: 1200px) {
+    height: 400px;
+  }
+}
+.contact {
+  text-align: center;
+  &__wrapper {
+    @media all and (min-width: 768px) {
+      margin: 0 45px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 601px;
+      margin: 0 auto;
+    }
+  }
+  &__article {
+    margin-top: 30px;
+    @media all and (min-width: 768px) {
+      margin-top: 45px;
+    }
+    &--title {
+      text-transform: uppercase;
+      font-family: $title-font;
+      font-size: 24px;
+      line-height: 45px;
+      color: $title-color-primary;
+      @media all and (min-width: 768px) {
+        color: $title-color-secondary;
+      }
+    }
+  }
+}
