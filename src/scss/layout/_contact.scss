@@ -10,7 +10,8 @@
   text-align: center;
   &__wrapper {
     @media all and (min-width: 768px) {
-      margin: 0 45px;
+      width: 442px;
+      margin: 0 auto;
     }
     @media all and (min-width: 1200px) {
       width: 601px;
@@ -31,6 +32,63 @@
       @media all and (min-width: 768px) {
         color: $title-color-secondary;
       }
+    }
+  }
+}
+.small {
+  display: block;
+  font-size: 12px;
+  margin-top: 30px;
+  font-family: $text-font;
+}
+.asterisk {
+  color: $title-color-primary;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 15px;
+  @media all and (min-width: 768px) {
+    width: 442px;
+    margin: 60px auto;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    margin: 60px auto 120px auto;
+  }
+  &__label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+  &__input,
+  &__textarea {
+    margin-bottom: 15px;
+    border: 1px solid #b8b8b9;
+    padding: 10px;
+  }
+
+  &__input,
+  &__textarea,
+  &__submit {
+    font-size: $text-size;
+    font-family: $text-font;
+  }
+  &__submit {
+    background-color: $title-color-secondary;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    @media all and (min-width: 768px) {
+      width: 206px;
+      height: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 278px;
     }
   }
 }
