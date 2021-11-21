@@ -1,78 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Contact</title>
-	</head>
-	<body>
-		<header class="header">
-		  <h1 class="title">Nombre del grupo</h1>
-		  <nav class="header-nav">
-		    <ul class="header-menu">
-		      <li class="header-menu-item">
-		        <a class="header-menu-link" href="#">Equipo</a>
-		      </li>
-		      <li class="header-menu-item">
-		        <a class="header-menu-link" href="#">Quiénes somos</a>
-		      </li>
-		      <li class="header-menu-item">
-		        <a class="header-menu-link" href="#">Contacto</a>
-		      </li>
-		    </ul>
-		  </nav>
-		</header>
 
-		<div class="hero-contact">
-			<!-- imagen de fondo en CSS-->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Contacto</title>
+	
+	<!-- google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
+		rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
+		rel="stylesheet" />
+
+	<!-- font awesome icons-->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	
+		<!-- stylesheets-->
+	<link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+	<header class="header">
+	    <div class="header__wrapper">
+	        <h1 class="header__title">
+	            <a class="header__title--link" href="./">Las 3R</a>
+	        </h1>
+	        <nav class="header__nav">
+	            <ul class="header__menu">
+	                <li class="header__menu--item">
+	                    <a class="header__menu--link" href="./#team">Equipo</a>
+	                </li>
+	                <li class="header__menu--item">
+	                    <a class="header__menu--link" href="./#about-us">Quiénes somos</a>
+	                </li>
+	                <li class="header__menu--item">
+	                    <a class="header__menu--link" href="./contact.html">Contacto</a>
+	                </li>
+	            </ul>
+	        </nav>
+	    </div>
+	</header>
+	<section class="hero-contact">
+		<!-- imagen de fondo en CSS-->
+	</section>
+
+	<section class="contact">
+		<div class="contact__wrapper">
+			<article class="contact__article">
+				<h2 class="contact__article--title">Contacto</h2>
+				<p class="main-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo. Unde tenetur velit ipsa error
+					id voluptate veniam dicta excepturi amet aut soluta fugiat voluptatibus voluptas, commodi quasi
+					reprehenderit blanditiis!
+				</p>
+				<small class="small">
+					Todos los campos marcados con <span class="asterisk">*</span> son
+					obligatorios</small>
+			</article>
 		</div>
+	</section>
 
-		<section>
-			<h2>contacto</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta
-				provident sapiente iusto soluta sed debitis sunt cumque consequuntur fugit
-				voluptatum tempore modi, beatae eius aut quidem esse qui numquam?
-			</p>
-			<small>
-				Todos los campos marcados con <span class="asterisk">*</span> son
-				obligatorios</small
-			>
+
+	<form class="form" id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqygnrq"
+		method="post">
+
+		<label class="form__label" for="full-name">Nombre completo <span class="asterisk">*</span></label>
+		<input class="form__input" type="text" name="name" id="full-name" placeholder="Nombre..." required />
+		<fieldset class="form__fieldset">
+			<label class="form__label" for="email-address">Email <span class="asterisk">*</span></label>
+			<input class="form__input" type="email" name="_replyto" id="email-address"
+				placeholder="nombre.apellidos@mail.com" required />
+			<label class="form__label" for="telephone">Teléfono</label>
+			<input class="form__input" type="telephone" name="telephone" id="telephone" placeholder="Ej. 123456789" />
+		</fieldset>
+		<label class="form__label" for="complaint">Mensaje <span class="asterisk">*</span></label>
+		<textarea class="form__textarea" rows="6" name="message" id="message" placeholder="¿Qué necesitas?"
+			required></textarea>
+		<input class="form__input" type="hidden" name="_subject" id="email-subject" value="Formulario web grupo" />
+
+		<input class="form__submit" type="submit" value="Enviar">
+	</form>
+	<footer class="footer">
+		<section class="footer__copy">
+			<p class="copy__text">Las 3R &copy 2021</p>
 		</section>
 
-		<form action="https://formspree.io/f/moqygnrq" method="POST">
-			<!-- your other form fields go here -->
-			<button type="submit">enviar</button>
-		</form>
+		<nav class="footer__nav">
+			<ul class="footer__menu">
+				<li class="menu__item">
+					<a class="menu__link" href="./#team">Equipo</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="./#about-us">Quiénes somos</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="./contact.html" target="_blank">Contacto</a>
+				</li>
+			</ul>
+		</nav>
 
-		<footer class="footer">
-			<section class="footer__copy">
-				<p class="copy__text">Las 3R &copy 2021</p>
-			</section>
-
-			<nav class="footer__nav">
-				<ul class="footer__menu">
-					<li class="menu__item">
-						<a class="menu__link" href="#">Equipo</a>
-					</li>
-					<li class="menu__item">
-						<a class="menu__link" href="#">Quiénes somos</a>
-					</li>
-					<li class="menu__item">
-						<a class="menu__link" href="#">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-
-			<section class="footer__container">
+		<section class="footer__container">
+			<a href="https://adalab.es/" title="Visita Adalab" target="_blank">
 				<img
-					class="footer__logo"
-					src="./assets/images/logo-adalab.png"
-					alt="Logo Adalab"
-				/>
-			</section>
-		</footer>
+				class="footer__logo"
+				src="./assets/images/logo-adalab.png"
+				alt="Logo Adalab"
+				title="Conoce Adalab"
+				>
+				</img>
+			</a>
+		</section>
+	</footer>
 
-	</body>
+</body>
+
 </html>
