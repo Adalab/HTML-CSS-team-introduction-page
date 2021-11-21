@@ -31,18 +31,18 @@
 	<header class="header">
 	    <div class="header__wrapper">
 	        <h1 class="header__title">
-	            <a class="header__title--link" href="./">Las 3R</a>
+	            <a class="header__title--link" href="./">3R Team</a>
 	        </h1>
 	        <nav class="header__nav">
 	            <ul class="header__menu">
 	                <li class="header__menu--item">
-	                    <a class="header__menu--link" href="./#team">Equipo</a>
+	                    <a class="header__menu--link" href="./#team" title="Equipo">Equipo</a>
 	                </li>
 	                <li class="header__menu--item">
-	                    <a class="header__menu--link" href="./#about-us">Quiénes somos</a>
+	                    <a class="header__menu--link" href="./#about-us" title="Quiénes somos">Quiénes somos</a>
 	                </li>
 	                <li class="header__menu--item">
-	                    <a class="header__menu--link" href="./contact.html">Contacto</a>
+	                    <a class="header__menu--link" href="./contact.html" title="Contacto">Contacto</a>
 	                </li>
 	            </ul>
 	        </nav>
@@ -57,35 +57,38 @@
 	        <article class="contact__article">
 	            <h2 class="contact__article--title">Contacto</h2>
 	            <p class="main-text">
-	                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo. Unde tenetur velit ipsa error id voluptate veniam dicta excepturi amet aut soluta fugiat voluptatibus voluptas, commodi quasi reprehenderit blanditiis!
-	            </p>
+	                Si quieres contactar con nosotras, rellena el formulario y nos pondremos en contacto contigo a la
+	                velocidad del rayo.</p>
 	            <small class="small">
-					Todos los campos marcados con <span class="asterisk">*</span> son
-					obligatorios</small>
+	                Todos los campos marcados con <span class="asterisk">*</span> son
+	                obligatorios</small>
 	        </article>
 	    </div>
 	</section>
 
 
-	<form class="form" id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqygnrq" method="post">
+	<form class="form" id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqygnrq"
+	    method="post">
 
 	    <label class="form__label" for="full-name">Nombre completo <span class="asterisk">*</span></label>
 	    <input class="form__input" type="text" name="name" id="full-name" placeholder="Nombre..." required />
 	    <!-- <fieldset class="form__fieldset"> -->
 	    <label class="form__label" for="email-address">Email <span class="asterisk">*</span></label>
-	    <input class="form__input" type="email" name="_replyto" id="email-address" placeholder="nombre.apellidos@mail.com" required />
+	    <input class="form__input" type="email" name="_replyto" id="email-address" placeholder="nombre.apellidos@mail.com"
+	        required />
 	    <label class="form__label" for="telephone">Teléfono</label>
-	    <input class="form__input" type="telephone" name="telephone" id="telephone" placeholder="Ej. 123456789" />
+	    <input class="form__input" type="tel" name="telephone" id="telephone" placeholder="Ej. 123456789" />
 	    <!-- </fieldset> -->
 	    <label class="form__label" for="complaint">Mensaje <span class="asterisk">*</span></label>
-	    <textarea class="form__textarea" rows="6" name="message" id="message" placeholder="¿Qué necesitas?" required></textarea>
+	    <textarea class="form__textarea" rows="6" name="message" id="message" placeholder="¿Qué necesitas?"
+	        required></textarea>
 	    <input class="form__input" type="hidden" name="_subject" id="email-subject" value="Formulario web grupo" />
 
 	    <input class="form__submit" type="submit" value="Enviar">
 	</form>
 	<footer class="footer">
 		<section class="footer__copy">
-			<p class="copy__text">Las 3R &copy 2021</p>
+			<p class="copy__text">3R Team &copy 2021</p>
 		</section>
 
 		<nav class="footer__nav">
@@ -104,17 +107,11 @@
 
 		<section class="footer__container">
 			<a href="https://adalab.es/" title="Visita Adalab" target="_blank">
-				<img
-				class="footer__logo"
-				src="./assets/images/logo-adalab.png"
-				alt="Logo Adalab"
-				title="Conoce Adalab"
-				>
+				<img class="footer__logo" src="./assets/images/logo-adalab.png" alt="Logo Adalab" title="Conoce Adalab">
 				</img>
 			</a>
 		</section>
 	</footer>
-
 </body>
 
 </html>
