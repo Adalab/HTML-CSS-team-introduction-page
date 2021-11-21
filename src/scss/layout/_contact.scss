@@ -1,98 +1,98 @@
 .hero-contact {
-  background: url("../images/hero-contact.jpg") center right;
-  background-size: cover;
-  height: 300px;
-  @media all and (min-width: 1200px) {
-    height: 400px;
-  }
+	background: url("../images/hero-contact.jpg") center right;
+	background-size: cover;
+	height: 300px;
+	@media all and (min-width: 1200px) {
+		height: 400px;
+	}
 }
 .contact {
-  text-align: center;
-  &__wrapper {
-    @media all and (min-width: 768px) {
-      width: 442px;
-      margin: 0 auto;
-    }
-    @media all and (min-width: 1200px) {
-      width: 601px;
-      margin: 0 auto;
-    }
-  }
-  &__article {
-    margin-top: 30px;
-    @media all and (min-width: 768px) {
-      margin-top: 45px;
-    }
-    &--title {
-      text-transform: uppercase;
-      font-family: $title-font;
-      font-size: 24px;
-      line-height: 45px;
-      color: $title-color-primary;
-      @media all and (min-width: 768px) {
-        color: $title-color-secondary;
-      }
-    }
-  }
+	text-align: center;
+	&__wrapper {
+		@media all and (min-width: 768px) {
+			width: 442px;
+			margin: 0 auto;
+		}
+		@media all and (min-width: 1200px) {
+			width: 601px;
+			margin: 0 auto;
+		}
+	}
+	&__article {
+		margin-top: 30px;
+		@media all and (min-width: 768px) {
+			margin-top: 45px;
+		}
+		&--title {
+			text-transform: uppercase;
+			font-family: $title-font;
+			font-size: 24px;
+			line-height: 45px;
+			color: $title-color-primary;
+			@media all and (min-width: 768px) {
+				color: $title-color-secondary;
+			}
+		}
+	}
 }
 .small {
-  display: block;
-  font-size: 12px;
-  margin-top: 30px;
-  font-family: $text-font;
+	display: block;
+	font-size: 12px;
+	margin-top: 30px;
+	font-family: $text-font;
 }
 .asterisk {
-  color: $title-color-primary;
+	color: $title-color-primary;
 }
 .form {
-  display: flex;
-  flex-direction: column;
-  margin: 60px 15px;
-  @media all and (min-width: 768px) {
-    width: 442px;
-    margin: 60px auto;
-  }
-  @media all and (min-width: 1200px) {
-    width: 601px;
-    margin: 60px auto 120px auto;
-  }
-  &__label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 7px;
-  }
-  &__fieldset &__label,
-  &__fieldset &__input {
-    display: inline;
-  }
-  &__input,
-  &__textarea {
-    margin-bottom: 15px;
-    border: 1px solid #b8b8b9;
-    padding: 10px;
-  }
+	display: flex;
+	flex-direction: column;
+	margin: 60px 15px;
+	@media all and (min-width: 768px) {
+		width: 442px;
+		margin: 60px auto;
+	}
+	@media all and (min-width: 1200px) {
+		width: 601px;
+		margin: 60px auto 120px auto;
+	}
+	&__label {
+		display: block;
+		font-size: 14px;
+		margin-bottom: 7px;
+	}
+	&__fieldset &__label,
+	&__fieldset &__input {
+		display: inline;
+	}
+	&__input,
+	&__textarea {
+		margin-bottom: 15px;
+		border: 1px solid #b8b8b9;
+		padding: 10px;
+	}
 
-  &__input,
-  &__textarea,
-  &__submit {
-    font-size: $text-size;
-    font-family: $text-font;
-  }
-  &__submit {
-    background-color: $title-color-secondary;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    margin-top: 15px;
-    @media all and (min-width: 768px) {
-      width: 206px;
-      height: 45px;
-    }
-    @media all and (min-width: 1200px) {
-      width: 278px;
-    }
-  }
+	&__input,
+	&__textarea,
+	&__submit {
+		font-size: $text-size;
+		font-family: $text-font;
+	}
+	&__submit {
+		background-color: $title-color-secondary;
+		border: none;
+		padding: 10px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		color: white;
+		font-weight: bold;
+		margin-top: 15px;
+		@media all and (min-width: 768px) {
+			width: 206px;
+			height: 45px;
+		}
+		@media all and (min-width: 1200px) {
+			width: 278px;
+		}
+	}
 }
