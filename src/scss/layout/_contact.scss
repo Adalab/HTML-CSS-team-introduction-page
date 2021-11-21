@@ -61,6 +61,10 @@
     font-size: 14px;
     margin-bottom: 7px;
   }
+  &__fieldset &__label,
+  &__fieldset &__input {
+    display: inline;
+  }
   &__input,
   &__textarea {
     margin-bottom: 15px;
