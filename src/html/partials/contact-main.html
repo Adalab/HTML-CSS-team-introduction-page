@@ -1,40 +1,35 @@
 <section class="hero-contact">
-	<!-- imagen de fondo en CSS-->
+    <!-- imagen de fondo en CSS-->
 </section>
 
 <section class="contact">
-	<div class="contact__wrapper">
-		<article class="contact__article">
-			<h2 class="contact__article--title">Contacto</h2>
-			<p class="main-text">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo. Unde tenetur velit ipsa error
-				id voluptate veniam dicta excepturi amet aut soluta fugiat voluptatibus voluptas, commodi quasi
-				reprehenderit blanditiis!
-			</p>
-			<small class="small">
+    <div class="contact__wrapper">
+        <article class="contact__article">
+            <h2 class="contact__article--title">Contacto</h2>
+            <p class="main-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, explicabo. Unde tenetur velit ipsa error id voluptate veniam dicta excepturi amet aut soluta fugiat voluptatibus voluptas, commodi quasi reprehenderit blanditiis!
+            </p>
+            <small class="small">
 				Todos los campos marcados con <span class="asterisk">*</span> son
 				obligatorios</small>
-		</article>
-	</div>
+        </article>
+    </div>
 </section>
 
 
-<form class="form" id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqygnrq"
-	method="post">
+<form class="form" id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqygnrq" method="post">
 
-	<label class="form__label" for="full-name">Nombre completo <span class="asterisk">*</span></label>
-	<input class="form__input" type="text" name="name" id="full-name" placeholder="Nombre..." required />
-	<fieldset class="form__fieldset">
-		<label class="form__label" for="email-address">Email <span class="asterisk">*</span></label>
-		<input class="form__input" type="email" name="_replyto" id="email-address"
-			placeholder="nombre.apellidos@mail.com" required />
-		<label class="form__label" for="telephone">Teléfono</label>
-		<input class="form__input" type="telephone" name="telephone" id="telephone" placeholder="Ej. 123456789" />
-	</fieldset>
-	<label class="form__label" for="complaint">Mensaje <span class="asterisk">*</span></label>
-	<textarea class="form__textarea" rows="6" name="message" id="message" placeholder="¿Qué necesitas?"
-		required></textarea>
-	<input class="form__input" type="hidden" name="_subject" id="email-subject" value="Formulario web grupo" />
+    <label class="form__label" for="full-name">Nombre completo <span class="asterisk">*</span></label>
+    <input class="form__input" type="text" name="name" id="full-name" placeholder="Nombre..." required />
+    <!-- <fieldset class="form__fieldset"> -->
+    <label class="form__label" for="email-address">Email <span class="asterisk">*</span></label>
+    <input class="form__input" type="email" name="_replyto" id="email-address" placeholder="nombre.apellidos@mail.com" required />
+    <label class="form__label" for="telephone">Teléfono</label>
+    <input class="form__input" type="telephone" name="telephone" id="telephone" placeholder="Ej. 123456789" />
+    <!-- </fieldset> -->
+    <label class="form__label" for="complaint">Mensaje <span class="asterisk">*</span></label>
+    <textarea class="form__textarea" rows="6" name="message" id="message" placeholder="¿Qué necesitas?" required></textarea>
+    <input class="form__input" type="hidden" name="_subject" id="email-subject" value="Formulario web grupo" />
 
-	<input class="form__submit" type="submit" value="Enviar">
+    <input class="form__submit" type="submit" value="Enviar">
 </form>
