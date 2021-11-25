@@ -65,9 +65,19 @@
     font-size: 14px;
     margin-bottom: 7px;
   }
-  &__fieldset &__label,
-  &__fieldset &__input {
-    display: inline;
+  &__input {
+    width: 100%;
+  }
+  &__fieldset {
+    @include desktop {
+      display: grid;
+      grid-template-columns: 395px 162px;
+      grid-template-rows: auto auto;
+      column-gap: 44px;
+      .form__label {
+        grid-row: 1;
+      }
+    }
   }
   &__input,
   &__textarea {
@@ -94,6 +104,7 @@
     @include tablet {
       width: 206px;
       height: 45px;
+      align-self: flex-end;
     }
     @include desktop {
       width: 278px;
