@@ -3,21 +3,21 @@
 .team {
   text-align: center;
   scroll-margin-top: 130px;
-  @media all and (min-width: 768px) {
+  @include tablet {
     scroll-margin-top: 85px;
   }
   &__wrapper {
-    @media all and (min-width: 768px) {
+    @include tablet {
       margin: 0 45px;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       width: 601px;
       margin: 0 auto;
     }
   }
   &__article {
     margin-top: 76px;
-    @media all and (min-width: 768px) {
+    @include tablet {
       margin-top: 45px;
     }
     &--title {
@@ -26,7 +26,7 @@
       font-size: 24px;
       line-height: 45px;
       color: $title-color-primary;
-      @media all and (min-width: 768px) {
+      @include tablet {
         color: $title-color-secondary;
       }
     }
@@ -51,13 +51,13 @@
   text-align: center;
   padding: 30px 15px 45px 15px;
   &__wrapper {
-    @media all and (min-width: 768px) {
+    @include tablet {
       padding-right: 30px;
       padding-left: 30px;
       display: flex;
       flex-direction: row;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       padding-right: 0;
       padding-left: 0;
       width: 924px;
@@ -66,7 +66,7 @@
   }
   &__article {
     padding: 0 15px;
-    @media all and (min-width: 768px) {
+    @include tablet {
       padding-bottom: 15px;
     }
     &--title {
@@ -74,7 +74,7 @@
       color: $title-color-secondary;
       font-size: 22px;
       line-height: 45px;
-      @media all and (min-width: 768px) {
+      @include tablet {
         margin: 15px 0;
       }
     }
@@ -82,21 +82,21 @@
 }
 
 .strengths {
-  @media all and (min-width: 768px) {
+  @include tablet {
     padding-left: 0;
   }
-  @media all and (min-width: 1200px) {
+  @include desktop {
     padding-right: 23px;
   }
 }
 
 .weakness {
   margin-top: 30px;
-  @media all and (min-width: 768px) {
+  @include tablet {
     margin-top: 0;
     padding-right: 0;
   }
-  @media all and (min-width: 1200px) {
+  @include desktop {
     padding-left: 23px;
   }
 }

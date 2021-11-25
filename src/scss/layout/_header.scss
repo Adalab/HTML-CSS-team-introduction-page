@@ -2,7 +2,7 @@
   width: 100%;
   position: fixed;
   z-index: 1;
-  @media all and (min-width: 1200px) {
+  @include desktop {
     background-color: $title-color-secondary;
     opacity: 0.9;
   }
@@ -12,10 +12,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media all and (min-width: 768px) {
+    @include tablet {
       flex-direction: row;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       width: 924px;
       margin: 0 auto;
     }
@@ -31,11 +31,11 @@
     padding: 15px 0;
     color: white;
     opacity: 0.9;
-    @media all and (min-width: 768px) {
+    @include tablet {
       text-align: left;
       padding-left: 45px;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       background: none;
       padding-left: 0px;
     }
@@ -51,12 +51,12 @@
     background-color: $title-color-primary;
     width: 100%;
     opacity: 0.9;
-    @media all and (min-width: 768px) {
+    @include tablet {
       background-color: $title-color-secondary;
       padding-top: 7px;
       padding-bottom: 8px;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       background: none;
     }
   }
@@ -69,18 +69,18 @@
     text-transform: uppercase;
     padding-top: 8px;
     padding-bottom: 7px;
-    @media all and (min-width: 768px) {
+    @include tablet {
       justify-content: flex-end;
       padding-right: 40px;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       padding-right: 0px;
     }
     &--link {
       color: white;
       text-decoration: none;
       padding: 5px;
-      @media all and (min-width: 768px) {
+      @include tablet {
         margin-left: 8px;
       }
     }

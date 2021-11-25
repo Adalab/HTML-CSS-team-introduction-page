@@ -1,45 +1,45 @@
 .hero {
-    background: url("../images/hero-main.jpg") center center;
-    background-size: cover;
-    &__wrapper {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        height: 421px;
-        @media all and (min-width: 768px) {
-            justify-content: flex-start;
-        }
-        @media all and (min-width: 1200px) {
-            height: 550px;
-            width: 924px;
-            margin: 0 auto;
-        }
+  background: url("../images/hero-main.jpg") center center;
+  background-size: cover;
+  &__wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 421px;
+    @include tablet {
+      justify-content: flex-start;
     }
-    &__title {
-        font-weight: bold;
-        background-color: $main-background-color;
-        font-family: $text-font;
-        font-size: 18px;
-        line-height: 25px;
-        padding: 15px;
-        margin: 0 15px;
-        position: relative;
-        bottom: -46px;
-        @media all and (min-width: 768px) {
-            opacity: 0.8;
-            bottom: 0;
-            width: 441px;
-            height: 80px;
-            text-align: left;
-            margin-left: 46px;
-            padding: 15px 30px;
-        }
-        @media all and (min-width: 1200px) {
-            font-size: 24px;
-            line-height: 30px;
-            width: 574px;
-            height: 90px;
-            margin-left: 0px;
-        }
+    @include desktop {
+      height: 550px;
+      width: 924px;
+      margin: 0 auto;
     }
+  }
+  &__title {
+    font-weight: bold;
+    background-color: $main-background-color;
+    font-family: $text-font;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px;
+    margin: 0 15px;
+    position: relative;
+    bottom: -46px;
+    @include tablet {
+      opacity: 0.8;
+      bottom: 0;
+      width: 441px;
+      height: 80px;
+      text-align: left;
+      margin-left: 46px;
+      padding: 15px 30px;
+    }
+    @include desktop {
+      font-size: 24px;
+      line-height: 30px;
+      width: 574px;
+      height: 90px;
+      margin-left: 0px;
+    }
+  }
 }
