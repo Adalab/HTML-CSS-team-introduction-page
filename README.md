@@ -1,6 +1,6 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# [3R TEAM](https://beta.adalab.es/project-promo-o-module-1-team-6/)
+### [3R TEAM](https://beta.adalab.es/project-promo-o-module-1-team-6/)
 
 ## A destacar:
 
