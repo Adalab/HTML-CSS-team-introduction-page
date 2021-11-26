@@ -129,5 +129,12 @@
 
   &-link {
     color: $title-color-secondary;
+    transition: all 0.5s;
+
+    &:hover {
+      color: $title-color-primary;
+      font-size: 20px;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
   }
 }
