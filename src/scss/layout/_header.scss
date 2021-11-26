@@ -43,9 +43,10 @@
       text-decoration: none;
       color: white;
       .RRR {
+        display: inline-block;
         animation-name: spin;
         animation-iteration-count: 1;
-        animation-duration: 3s;
+        animation-duration: 2s;
       }
     }
   }
