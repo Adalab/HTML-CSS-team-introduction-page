@@ -107,6 +107,12 @@
     color: white;
     font-weight: bold;
     margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $title-color-primary;
+    }
     @include tablet {
       width: 206px;
       height: 45px;
