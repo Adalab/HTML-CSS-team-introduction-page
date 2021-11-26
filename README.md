@@ -2,16 +2,16 @@
 
 ### [3R TEAM](https://beta.adalab.es/project-promo-o-module-1-team-6/)
 
-## A destacar:
+## Highlights
 
-- Optimización para distintos dispositivos y tamaños de pantalla utilizando la metodología de diseño Mobile First Responsive Web.
-- Estructura HTML semántica para proporcionar un significado adicional al marcado.
-- Organización del contenido con CSS Flexbox y CSS Grid según las necesidades de cada sección.
-- Funciones de SASS para crear bloques de código reutilizables y mantenibles: partials, nesting, mixins, variables, directivas @import...
-- Convención para nomenclatura de clases BEM, que hace que el código de front-end sea más fácil de entender, trabajar y escalar.
-- Media queries escritas con mixins y directiva @content para facilitar el mantenimiento.
-- Transiciones y animaciones CSS que mejoran la experiencia de usuario.
-- Control de versiones con Git.
-- Adalab Web Starter Kit: recursos and herramientas (Node JS, NPM, Gulp) que agilizan el trabajo de desarrollo.
+- **Mobile First** Responsive Web Design.
+- **Semantic HTML structure** to provide additional meaning to the markup.
+- **CSS Flexbox** and **CSS Grid** layouts, working with both at the same time.
+- SASS features to create reusable and maintainable blocks of code: **partials**, **nesting**, **mixins**, **variables**, **@import and @extend directives**...
+- **BEM** naming convention that makes front-end code easier to understand, work with and scale.
+- Writing **media queries** with mixins and @content directive to allow for ease of maintenance.
+- **CSS Transitions** and **CSS Animations** with keyframes (for beginners), improving user experience.
+- Version control and branching with **Git** to manage the code.
+- **Adalab Web Starter Kit**: resources and tools (**Node JS**, **NPM**, **Gulp**) to quickly start web development projects.
 
 ---
