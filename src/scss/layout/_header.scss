@@ -42,9 +42,11 @@
     &--link {
       text-decoration: none;
       color: white;
-    }
-    &--link:hover {
-      text-decoration: underline;
+      .RRR {
+        animation-name: spin;
+        animation-iteration-count: 1;
+        animation-duration: 3s;
+      }
     }
   }
   &__nav {
@@ -80,12 +82,14 @@
       color: white;
       text-decoration: none;
       padding: 5px;
+      border: solid 1px transparent;
+      transition: border-color 0.5s;
       @include tablet {
         margin-left: 8px;
       }
     }
     &--link:hover {
-      text-decoration: underline;
+      border-bottom-color: white;
     }
   }
 }
