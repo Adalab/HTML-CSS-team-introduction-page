@@ -13,5 +13,3 @@
 - **CSS Transitions** and **CSS Animations** with keyframes (for beginners), improving user experience.
 - Version control and branching with **Git** to manage the code.
 - **Adalab Web Starter Kit**: resources and tools (**Node JS**, **NPM**, **Gulp**) to quickly start web development projects.
-
----
